@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header img  {
+    height: 36px;
+    margin-right: 16px;
+}
+
+form {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    padding: 8px;
+    font-size: 18px;
+}
+
+form button {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: linear-gradient(to left, #51d305, #fff);
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+table td {
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 12px;
+}
+
+.erroNome{
+    border-color: red;
+}
+
+.erroNome:focus {
+    color: red;
+    outline-color: red;
+}
+
+.alertaNomeErro {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: none;
+}
+
+tfoot {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.resultado {
+    background: linear-gradient(to left, #51d305, #fff);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.erroNum:focus {
+    color: red;
+    outline-color: red;
+}
+
+.errosDigitacao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.errosDigitacao p {
+    display: none;
+}
+
+.alertaNomeErro,
+.alertaNumErro{
+    background-color: red;
+    border-radius: 6px;
+    padding: 6px;
+    max-width: 240px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: none;
+}
+
+.alertaNumErro {
+    margin-left: 50%;
+    max-width: 160px;
+    width: 100%;
+}
